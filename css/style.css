@@ -3,7 +3,13 @@ button{
    
 }
 body{
-    background-color: aqua;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: linear-gradient(to right,rgb(105, 95, 247) ,rgb(243, 180, 180));
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     box-align: center;
 
@@ -13,4 +19,7 @@ table{
 }
 img{
 border-radius: 20%;
+}
+input{
+    border: none;
 }
